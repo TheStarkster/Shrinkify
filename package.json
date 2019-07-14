@@ -1,0 +1,28 @@
+{
+  "name": "shrinkify",
+  "version": "1.0.0",
+  "description": "Shrinkify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sGurkaran/Shrinkify.git"
+  },
+  "keywords": [],
+  "author": "Gurkaran_Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sGurkaran/Shrinkify/issues"
+  },
+  "homepage": "https://github.com/sGurkaran/Shrinkify#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.4",
+    "short-id": "0.1.0-1"
+  }
+}

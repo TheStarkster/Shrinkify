@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../assets/fonts/Raleway-Bold.ttf');
+
+  }
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url('../assets/fonts/Raleway-Regular.ttf');
+}
+.navbar-brand{
+    font-family: 'Raleway-Bold';
+    font-size: 36px;
+    margin-right: 28px;
+    outline: none
+}
+.nav-link{
+    font-size: 20px;
+    transition: 0.4s;
+    font-family: 'Raleway-Regular';
+    margin-left:8px;
+    margin-right:8px;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+.navlogo{
+    width: 55px;
+    height: 50px;
+    padding-bottom:3px;
+}
+.card{
+    position: fixed;
+   top: 50%;
+   left: 50%; 
+   transform: translate(-50%, -50%); 
+}
